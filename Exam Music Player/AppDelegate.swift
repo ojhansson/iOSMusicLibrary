@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Exam Music Player
-//
-//  Created by Ole Hansson on 29/10/2019.
-//  Copyright © 2019 Ole Hansson. All rights reserved.
-//
-
 import UIKit
 import CoreData
 

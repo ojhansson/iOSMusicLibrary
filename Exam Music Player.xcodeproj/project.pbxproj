@@ -3,12 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1D4DDC13AE3A493ECF2B7F /* Pods_Exam_Music_Player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7525B909A3C92FE9E53BAF5 /* Pods_Exam_Music_Player.framework */; };
+		2F5A765F239EA77D00D0B429 /* AlbumTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A765E239EA77D00D0B429 /* AlbumTrack.swift */; };
+		2F5A7662239EB23A00D0B429 /* AlbumTrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A7661239EB23A00D0B429 /* AlbumTrackTableViewCell.swift */; };
+		2F5A766423A12A9A00D0B429 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A766323A12A9A00D0B429 /* SearchViewController.swift */; };
+		2F5A766623A1398800D0B429 /* SearchAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A766523A1398800D0B429 /* SearchAlbum.swift */; };
+		2F5A766A23A16D7400D0B429 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A766923A16D7400D0B429 /* FavoritesViewController.swift */; };
+		2F5A766C23A16E2100D0B429 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A766B23A16E2100D0B429 /* FavoriteTableViewCell.swift */; };
+		2F5A766E23A1DA3200D0B429 /* RecommendedArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A766D23A1DA3200D0B429 /* RecommendedArtist.swift */; };
+		2F5A767023A2748C00D0B429 /* RecommendedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A766F23A2748C00D0B429 /* RecommendedCollectionViewCell.swift */; };
+		2F5A767223A29B8600D0B429 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A767123A29B8600D0B429 /* Artist.swift */; };
+		2FEF3C842397EED900BFDE81 /* TopAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF3C832397EED900BFDE81 /* TopAlbum.swift */; };
+		2FEF3C8623982AB600BFDE81 /* TopAlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF3C8523982AB600BFDE81 /* TopAlbumCollectionViewCell.swift */; };
+		2FEF3C882398514200BFDE81 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF3C872398514200BFDE81 /* DetailViewController.swift */; };
+		2FEF3C8B23995FA500BFDE81 /* TopAlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF3C8923995FA500BFDE81 /* TopAlbumTableViewCell.swift */; };
+		2FEF3C8C23995FA500BFDE81 /* TopAlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FEF3C8A23995FA500BFDE81 /* TopAlbumTableViewCell.xib */; };
 		2FFD5204236842460010A895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD5203236842460010A895 /* AppDelegate.swift */; };
-		2FFD5206236842460010A895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD5205236842460010A895 /* ViewController.swift */; };
+		2FFD5206236842460010A895 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD5205236842460010A895 /* TopViewController.swift */; };
 		2FFD5209236842460010A895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFD5207236842460010A895 /* Main.storyboard */; };
 		2FFD520C236842460010A895 /* Exam_Music_Player.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FFD520A236842460010A895 /* Exam_Music_Player.xcdatamodeld */; };
 		2FFD520E236842470010A895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFD520D236842470010A895 /* Assets.xcassets */; };
@@ -16,14 +31,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F5A765E239EA77D00D0B429 /* AlbumTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTrack.swift; sourceTree = "<group>"; };
+		2F5A7661239EB23A00D0B429 /* AlbumTrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTrackTableViewCell.swift; sourceTree = "<group>"; };
+		2F5A766323A12A9A00D0B429 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2F5A766523A1398800D0B429 /* SearchAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAlbum.swift; sourceTree = "<group>"; };
+		2F5A766923A16D7400D0B429 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		2F5A766B23A16E2100D0B429 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		2F5A766D23A1DA3200D0B429 /* RecommendedArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedArtist.swift; sourceTree = "<group>"; };
+		2F5A766F23A2748C00D0B429 /* RecommendedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedCollectionViewCell.swift; sourceTree = "<group>"; };
+		2F5A767123A29B8600D0B429 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		2FEF3C832397EED900BFDE81 /* TopAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbum.swift; sourceTree = "<group>"; };
+		2FEF3C8523982AB600BFDE81 /* TopAlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		2FEF3C872398514200BFDE81 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2FEF3C8923995FA500BFDE81 /* TopAlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumTableViewCell.swift; sourceTree = "<group>"; };
+		2FEF3C8A23995FA500BFDE81 /* TopAlbumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopAlbumTableViewCell.xib; sourceTree = "<group>"; };
 		2FFD5200236842460010A895 /* Exam Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exam Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFD5203236842460010A895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FFD5205236842460010A895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FFD5205236842460010A895 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		2FFD5208236842460010A895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FFD520B236842460010A895 /* Exam_Music_Player.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Exam_Music_Player.xcdatamodel; sourceTree = "<group>"; };
 		2FFD520D236842470010A895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FFD5210236842470010A895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FFD5212236842470010A895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767D26256675816638C6ECFF /* Pods-Exam Music Player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exam Music Player.debug.xcconfig"; path = "Target Support Files/Pods-Exam Music Player/Pods-Exam Music Player.debug.xcconfig"; sourceTree = "<group>"; };
+		B7525B909A3C92FE9E53BAF5 /* Pods_Exam_Music_Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Exam_Music_Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82A3987FA40F34C558F3EEC /* Pods-Exam Music Player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exam Music Player.release.xcconfig"; path = "Target Support Files/Pods-Exam Music Player/Pods-Exam Music Player.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A1D4DDC13AE3A493ECF2B7F /* Pods_Exam_Music_Player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F5A765D239E91A800D0B429 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FEF3C832397EED900BFDE81 /* TopAlbum.swift */,
+				2F5A765E239EA77D00D0B429 /* AlbumTrack.swift */,
+				2F5A766523A1398800D0B429 /* SearchAlbum.swift */,
+				2F5A766D23A1DA3200D0B429 /* RecommendedArtist.swift */,
+				2F5A767123A29B8600D0B429 /* Artist.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F5A766723A16BC900D0B429 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FFD5205236842460010A895 /* TopViewController.swift */,
+				2F5A766323A12A9A00D0B429 /* SearchViewController.swift */,
+				2FEF3C872398514200BFDE81 /* DetailViewController.swift */,
+				2F5A766923A16D7400D0B429 /* FavoritesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F5A766823A16C3500D0B429 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2FEF3C8523982AB600BFDE81 /* TopAlbumCollectionViewCell.swift */,
+				2FEF3C8923995FA500BFDE81 /* TopAlbumTableViewCell.swift */,
+				2FEF3C8A23995FA500BFDE81 /* TopAlbumTableViewCell.xib */,
+				2F5A7661239EB23A00D0B429 /* AlbumTrackTableViewCell.swift */,
+				2F5A766B23A16E2100D0B429 /* FavoriteTableViewCell.swift */,
+				2F5A766F23A2748C00D0B429 /* RecommendedCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		2FFD51F7236842460010A895 = {
 			isa = PBXGroup;
 			children = (
 				2FFD5202236842460010A895 /* Exam Music Player */,
 				2FFD5201236842460010A895 /* Products */,
+				E131710B3341C6FC92D460C6 /* Pods */,
+				46290119DA61B7E19076D080 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +127,34 @@
 		2FFD5202236842460010A895 /* Exam Music Player */ = {
 			isa = PBXGroup;
 			children = (
+				2F5A766823A16C3500D0B429 /* Cells */,
+				2F5A766723A16BC900D0B429 /* Controllers */,
+				2F5A765D239E91A800D0B429 /* Model */,
 				2FFD5203236842460010A895 /* AppDelegate.swift */,
-				2FFD5205236842460010A895 /* ViewController.swift */,
 				2FFD5207236842460010A895 /* Main.storyboard */,
 				2FFD520D236842470010A895 /* Assets.xcassets */,
-				2FFD520F236842470010A895 /* LaunchScreen.storyboard */,
 				2FFD5212236842470010A895 /* Info.plist */,
+				2FFD520F236842470010A895 /* LaunchScreen.storyboard */,
 				2FFD520A236842460010A895 /* Exam_Music_Player.xcdatamodeld */,
 			);
 			path = "Exam Music Player";
+			sourceTree = "<group>";
+		};
+		46290119DA61B7E19076D080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7525B909A3C92FE9E53BAF5 /* Pods_Exam_Music_Player.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E131710B3341C6FC92D460C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				767D26256675816638C6ECFF /* Pods-Exam Music Player.debug.xcconfig */,
+				E82A3987FA40F34C558F3EEC /* Pods-Exam Music Player.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FFD5215236842470010A895 /* Build configuration list for PBXNativeTarget "Exam Music Player" */;
 			buildPhases = (
+				B45B8FC796D762A1AC8902D8 /* [CP] Check Pods Manifest.lock */,
 				2FFD51FC236842460010A895 /* Sources */,
 				2FFD51FD236842460010A895 /* Frameworks */,
 				2FFD51FE236842460010A895 /* Resources */,
+				B736BFFDA0119907B364B5BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FFD5211236842470010A895 /* LaunchScreen.storyboard in Resources */,
+				2FEF3C8C23995FA500BFDE81 /* TopAlbumTableViewCell.xib in Resources */,
 				2FFD520E236842470010A895 /* Assets.xcassets in Resources */,
 				2FFD5209236842460010A895 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +226,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B45B8FC796D762A1AC8902D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Exam Music Player-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B736BFFDA0119907B364B5BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Exam Music Player/Pods-Exam Music Player-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Exam Music Player/Pods-Exam Music Player-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Exam Music Player/Pods-Exam Music Player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FFD51FC236842460010A895 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5A766423A12A9A00D0B429 /* SearchViewController.swift in Sources */,
 				2FFD520C236842460010A895 /* Exam_Music_Player.xcdatamodeld in Sources */,
-				2FFD5206236842460010A895 /* ViewController.swift in Sources */,
+				2FFD5206236842460010A895 /* TopViewController.swift in Sources */,
+				2FEF3C8B23995FA500BFDE81 /* TopAlbumTableViewCell.swift in Sources */,
+				2F5A766E23A1DA3200D0B429 /* RecommendedArtist.swift in Sources */,
 				2FFD5204236842460010A895 /* AppDelegate.swift in Sources */,
+				2F5A767023A2748C00D0B429 /* RecommendedCollectionViewCell.swift in Sources */,
+				2FEF3C882398514200BFDE81 /* DetailViewController.swift in Sources */,
+				2F5A766623A1398800D0B429 /* SearchAlbum.swift in Sources */,
+				2F5A766C23A16E2100D0B429 /* FavoriteTableViewCell.swift in Sources */,
+				2FEF3C8623982AB600BFDE81 /* TopAlbumCollectionViewCell.swift in Sources */,
+				2F5A7662239EB23A00D0B429 /* AlbumTrackTableViewCell.swift in Sources */,
+				2FEF3C842397EED900BFDE81 /* TopAlbum.swift in Sources */,
+				2F5A766A23A16D7400D0B429 /* FavoritesViewController.swift in Sources */,
+				2F5A767223A29B8600D0B429 /* Artist.swift in Sources */,
+				2F5A765F239EA77D00D0B429 /* AlbumTrack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +432,7 @@
 		};
 		2FFD5216236842470010A895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767D26256675816638C6ECFF /* Pods-Exam Music Player.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,7 +441,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ojhansson.Exam-Music-Player";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oslo.Exam-Music-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,6 +450,7 @@
 		};
 		2FFD5217236842470010A895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82A3987FA40F34C558F3EEC /* Pods-Exam Music Player.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ojhansson.Exam-Music-Player";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oslo.Exam-Music-Player";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

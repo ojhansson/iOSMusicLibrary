@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableCell" id="KGk-i7-Jjw" customClass="TopAlbumTableViewCell" customModule="Exam_Music_Player" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zGg-Bm-FfZ">
+                        <rect key="frame" x="5" y="5" width="33" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="33" id="TQU-Gk-M8F"/>
+                            <constraint firstAttribute="height" constant="33.5" id="ZDd-Hs-pLq"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" ambiguous="YES" text="Hei" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0k-pp-4Wc">
+                        <rect key="frame" x="43" y="5" width="26" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wP4-Vh-rt7">
+                        <rect key="frame" x="43" y="30.5" width="42" height="8"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zGg-Bm-FfZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="2aW-KZ-85W"/>
+                    <constraint firstItem="i0k-pp-4Wc" firstAttribute="leading" secondItem="zGg-Bm-FfZ" secondAttribute="trailing" constant="5" id="5So-4b-qV2"/>
+                    <constraint firstAttribute="bottom" secondItem="wP4-Vh-rt7" secondAttribute="bottom" constant="5" id="DPS-vd-HZ9"/>
+                    <constraint firstItem="i0k-pp-4Wc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="EY9-7N-M5E"/>
+                    <constraint firstItem="wP4-Vh-rt7" firstAttribute="top" secondItem="i0k-pp-4Wc" secondAttribute="bottom" constant="5" id="N3i-nR-fjN"/>
+                    <constraint firstItem="wP4-Vh-rt7" firstAttribute="top" secondItem="i0k-pp-4Wc" secondAttribute="bottom" constant="5" id="QfH-pg-1xR"/>
+                    <constraint firstItem="zGg-Bm-FfZ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Wzv-Vg-oSW"/>
+                    <constraint firstItem="wP4-Vh-rt7" firstAttribute="leading" secondItem="zGg-Bm-FfZ" secondAttribute="trailing" constant="5" id="Y1o-rn-v0M"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="albumImage" destination="zGg-Bm-FfZ" id="6V4-qD-2mU"/>
+                <outlet property="albumLabel" destination="i0k-pp-4Wc" id="FzR-DG-UM2"/>
+                <outlet property="artistLabel" destination="wP4-Vh-rt7" id="JfF-p6-hDG"/>
+            </connections>
+            <point key="canvasLocation" x="47.826086956521742" y="34.821428571428569"/>
+        </tableViewCell>
+    </objects>
+</document>
